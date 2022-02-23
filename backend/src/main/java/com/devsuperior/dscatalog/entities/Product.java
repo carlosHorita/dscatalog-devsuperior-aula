@@ -109,7 +109,10 @@ public class Product implements Serializable {
 	}
 
 	
-	
+	public Set<Category> getCategories() {
+		return categories;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
